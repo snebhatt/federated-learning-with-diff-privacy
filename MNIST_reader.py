@@ -40,8 +40,8 @@ def read(dataset = "training", path = "."):
 
 def get_data(d):
     # load the data
-    x_train, y_train = read('training', d + '\\MNIST_original')
-    x_test, y_test = read('testing', d + '\\MNIST_original')
+    x_train, y_train = read('training', d + '/MNIST_original')
+    x_test, y_test = read('testing', d + '/MNIST_original')
 
     # create validation set
     x_vali = list(x_train[50000:].astype(float))
