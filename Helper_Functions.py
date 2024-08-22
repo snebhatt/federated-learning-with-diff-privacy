@@ -22,11 +22,11 @@ class PrivAgent:
             self.Sigma = [1]*24
             self.bound = 0.001
         if N == 1000:
-            self.m = [100]*10
+            self.m = [100]*1000
             self.Sigma = [1]*24
             self.bound = 0.00001
         if N == 10000:
-            self.m = [300]*10
+            self.m = [300]*1000
             self.Sigma = [1]*24
             self.bound = 0.000001
         if(N != 100 and N != 1000 and N != 10000 ):
